@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925517995961",
+    "project_id": "finalodevi-1979e",
+    "storage_bucket": "finalodevi-1979e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925517995961:android:c5505cee5653efd0b1a068",
+        "android_client_info": {
+          "package_name": "com.example.finalodevi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925517995961-ssl46l64i2qv0td5d5jinc4sd5p434up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtvcFo6bmMNLaZFaIIaRxuG_7FSSayEQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925517995961-ssl46l64i2qv0td5d5jinc4sd5p434up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

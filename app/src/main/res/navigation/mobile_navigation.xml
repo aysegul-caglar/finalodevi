@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/menu_home"
+    app:startDestination="@id/nav_mesajgonder">
+    <fragment
+        android:id="@+id/nav_mesajgonder"
+        android:name="com.example.finalodevi.MesajGonder"
+        tools:layout="@layout/fragment_mesaj_gonder" />
+    <fragment
+        android:id="@+id/nav_grupolustur"
+        android:name="com.example.finalodevi.grupOlustur"
+        android:label="@string/menu_grupOlustur"
+        tools:layout="@layout/fragment_grup_olustur" />
+    <fragment
+        android:id="@+id/nav_grubaUyeEkle"
+        android:name="com.example.finalodevi.grubaUyeEkle"
+        android:label="@string/menu_grubaUyeEkle"
+        tools:layout="@layout/fragment_gruba_uye_ekle" />
+    <fragment
+        android:id="@+id/nav_mesajOlustur"
+        android:name="com.example.finalodevi.mesajOlustur"
+        android:label="@string/menu_mesajOlustur"
+        tools:layout="@layout/fragment_mesaj_olustur" />
+</navigation>
